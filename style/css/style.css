@@ -1,0 +1,9 @@
+.daterangepicker {
+  top: 0; }
+  .daterangepicker button.cancelBtn {
+    display: none; }
+
+.property-entry {
+  padding: 10 0 10 0; }
+  .property-entry section.property-image {
+    width: 30%; }
