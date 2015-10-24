@@ -1,5 +1,5 @@
 # frontend-examples
-Quick example using the React framework.  I wrote this to demonstrate how to use the Leavetown API to simplify the construction of a back-end agnostic front end.  I hope you get some inspiration from this example
+A quick react front end to display properties from Leavetown!  I wrote this to demonstrate how to use the Leavetown API to simplify the construction of a back-end agnostic front end.  I hope you get some inspiration from this example
 
 # How to use: 
 
