@@ -111,9 +111,16 @@ var SearchBar = React.createClass({
 
 var FilteredPropertyList = React.createClass({
   getPropertiesFromServer:function(dest,cin,cout){
-    dest = dest || '', cin = cin || '', cout = cout || '';
+    var url;
+    if(!cin || !cout){
+      url = this.props.url + dest + '/';
+    }
+    else {
+      dest = dest || '', cin = cin || '', cout = cout || '';
+      url:this.props.url + dest + '/' + cin + '/' + cout ;
+    }
     $.ajax({
-      url:this.props.url + dest + '/' + cin + '/' + cout ,
+      url:url,
       dataType:'json',
       cache:false,
       success:function(data){
@@ -134,6 +141,9 @@ var FilteredPropertyList = React.createClass({
       numBedrooms:0,
       //dates:'',
     }
+  },
+  componentDidMount:function(){
+    this.getPropertiesFromServer('Canmore')
   },
   handleSearchInput:function(checkin,checkout,destination){
     if(destination,checkin,checkout)
