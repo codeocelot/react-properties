@@ -2,32 +2,36 @@
 <head>
 	<base href="/">
 
+	<!-- React -->
+	<script src="bower_components/react/react.min.js"></script>
+	<script src="bower_components/react-dom/react-dom.min.js"></script>
+
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/underscore/underscore-min.js"></script>
 	<script src="bower_components/moment/min/moment.min.js"></script>
 	<script src="bower_components/moment-timezone/moment-timezone.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
+
+	<!-- Angular -->
 	<script src="bower_components/angular/angular.js"></script>
 	<script src="bower_components/angular-resource/angular-resource.js"></script>
 	<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
 	<script src="js/ng.js"></script>
+	<!-- /Angular -->
 
+	<script src="node_modules/babel-core/browser.js"></script>
 
-	<!--	<script src="bower_components/daterangepicker/lib/daterangepicker/daterangepicker.js"></script>-->
-
-	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css" rel="stylesheet">
-
-
-	<!-- Include Required Prerequisites -->
+	<!-- Include Required Prerequisites for Datepicker -->
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap/latest/css/bootstrap.css" />
 
 	<!-- Include Date Range Picker -->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
-	<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" /> -->
+	<script type="text/javascript" src="js/daterangepicker.js"></script>
+
+
+
+	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="./style/css/daterangepicker.css" />
 	<link rel="stylesheet" type="text/css" href="./style/css/style.css"/>
 
@@ -98,27 +102,6 @@
 		</div>
 	</div>
 </div>
-
-<script type="text/javascript">
-$(function(){
-	// var sDate = new Date();
-	// $('.daterangepicker input[name="daterange"]').daterangepicker(
-	// 		{
-	// 			locale:{cancelLabel:''},
-	//
-	// 			// autoApply:true,
-	// 			minDate: moment(),
-	// 		},
-	// 		function(start, end, label) {
-	// 			console.log($scope);
-	// 	  	console.log('New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')');
-	// });
-	// $('.daterangepicker input[name="daterange"]').on('cancel.daterangepicker', function(ev, picker) {
-	// 	  //do something, like clearing an input
-	// 	  $('.daterangepicker input[name="daterange"]').val('');
-	// });
-});
-</script>
 
 </body>
 </html>
