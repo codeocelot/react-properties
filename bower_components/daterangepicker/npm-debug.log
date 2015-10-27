@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/home/jrg/.nvm/versions/node/v0.12.7/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@3.3.3
+3 info using node@v0.12.7
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle daterangepicker@1.4.1~prestart: daterangepicker@1.4.1
+6 silly lifecycle daterangepicker@1.4.1~prestart: no script for prestart, continuing
+7 info lifecycle daterangepicker@1.4.1~start: daterangepicker@1.4.1
+8 verbose lifecycle daterangepicker@1.4.1~start: unsafe-perm in lifecycle true
+9 verbose lifecycle daterangepicker@1.4.1~start: PATH: /home/jrg/.nvm/versions/node/v0.12.7/lib/node_modules/npm/bin/node-gyp-bin:/home/jrg/test/datepicker/bower_components/daterangepicker/node_modules/.bin:/usr/local/heroku/bin:/home/jrg/.dnx/runtimes/dnx-mono.1.0.0-beta8-15618/bin:/home/jrg/.dnx/bin:/home/jrg/.nvm/versions/node/v0.12.7/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+10 verbose lifecycle daterangepicker@1.4.1~start: CWD: /home/jrg/test/datepicker/bower_components/daterangepicker
+11 silly lifecycle daterangepicker@1.4.1~start: Args: [ '-c',
+11 silly lifecycle   'echo Visit http://localhost:9009/test/ to run unit tests, http://localhost:9009/demo/ to run demo; serve -p 9009' ]
+12 info lifecycle daterangepicker@1.4.1~start: Failed to exec start script
+13 verbose stack Error: daterangepicker@1.4.1 start: `echo Visit http://localhost:9009/test/ to run unit tests, http://localhost:9009/demo/ to run demo; serve -p 9009`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/home/jrg/.nvm/versions/node/v0.12.7/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+13 verbose stack     at ChildProcess.emit (events.js:110:17)
+13 verbose stack     at maybeClose (child_process.js:1015:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+14 verbose pkgid daterangepicker@1.4.1
+15 verbose cwd /home/jrg/test/datepicker/bower_components/daterangepicker
+16 error Linux 3.19.0-30-generic
+17 error argv "node" "/home/jrg/.nvm/versions/node/v0.12.7/bin/npm" "start"
+18 error node v0.12.7
+19 error npm  v3.3.3
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error daterangepicker@1.4.1 start: `echo Visit http://localhost:9009/test/ to run unit tests, http://localhost:9009/demo/ to run demo; serve -p 9009`
+24 error spawn ENOENT
+25 error Failed at the daterangepicker@1.4.1 start script 'echo Visit http://localhost:9009/test/ to run unit tests, http://localhost:9009/demo/ to run demo; serve -p 9009'.
+25 error This is most likely a problem with the daterangepicker package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     echo Visit http://localhost:9009/test/ to run unit tests, http://localhost:9009/demo/ to run demo; serve -p 9009
+25 error You can get their info via:
+25 error     npm owner ls daterangepicker
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]

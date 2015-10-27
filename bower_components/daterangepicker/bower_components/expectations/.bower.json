@@ -1,0 +1,20 @@
+{
+  "name": "expectations",
+  "version": "0.2.6",
+  "main": "expectations.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "homepage": "https://github.com/spmason/expectations",
+  "_release": "0.2.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.6",
+    "commit": "0d1dddeb269bdce63811562dced5b78e3c2a81b2"
+  },
+  "_source": "git://github.com/spmason/expectations.git",
+  "_target": "~0.2.6",
+  "_originalSource": "expectations"
+}
